@@ -14,7 +14,7 @@ end
 color = "red"
 size = 9.5
 material = 'suede'
-condition = tattered
+condition = "tattered"
 
 shoes1=Shoe.new("Adidas")#, "red")  # "airmax", "sneakers", 100, )
 puts shoes1.brand
