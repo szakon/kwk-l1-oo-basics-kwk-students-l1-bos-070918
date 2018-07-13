@@ -15,7 +15,7 @@ end
 
 shoes1=Shoe.new("Adidas")#, "red")  # "airmax", "sneakers", 100, )
 puts shoes1.brand
-puts shoes1.color
+puts shoes1.color = "red"
 
 #puts shoes1.type
 #puts shoes1.price
