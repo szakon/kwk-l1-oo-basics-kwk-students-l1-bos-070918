@@ -10,6 +10,9 @@ class Shoe
    #@type = type
    #@price = price
  end
+ def cobble
+   puts "your shoe is as goos as new"
+   @condition = new
 end
 color = "red"
 size = 9.5
