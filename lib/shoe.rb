@@ -12,7 +12,7 @@ class Shoe
  end
  def cobble
    puts "your shoe is as goos as new"
-   @condition = new
+   @condition = "new"
  end
 end
 color = "red"
