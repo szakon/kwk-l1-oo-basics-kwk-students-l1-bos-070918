@@ -11,7 +11,7 @@ class Shoe
    #@price = price
  end
 end
-color = red
+color = "red"
 
 shoes1=Shoe.new("Adidas")#, "red")  # "airmax", "sneakers", 100, )
 puts shoes1.brand
