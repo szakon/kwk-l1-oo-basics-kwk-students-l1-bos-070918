@@ -2,7 +2,7 @@
 
 class Shoe
   attr_reader :brand#, #:material
-  attr_accessor :color
+  attr_accessor :color, :size
 
 
  def initialize(brand) # model, type, price)
@@ -12,6 +12,7 @@ class Shoe
  end
 end
 color = "red"
+size = 9.5
 
 shoes1=Shoe.new("Adidas")#, "red")  # "airmax", "sneakers", 100, )
 puts shoes1.brand
